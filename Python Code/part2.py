@@ -114,7 +114,7 @@ class BootcampDemo(Scene):
         self.play(
             Create(end_arrow),
             run_time=0.3
-        
+        )
         self.play(
             certificate.animate.scale(1.2),
             run_time=0.25  
@@ -124,4 +124,5 @@ class BootcampDemo(Scene):
             run_time=0.25  
         )
         
+
         self.wait(0.5)  
